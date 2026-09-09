@@ -21,7 +21,7 @@ A premium, interactive 3D portfolio showcasing engineering, data analytics, and 
 | **Animations** | Framer Motion, Lenis (Smooth Scroll) |
 | **3D & WebGL** | React Three Fiber, Three.js, Drei |
 
-## 💻 Live Demo
+## 💻 Live 
 
 Click here to watch my portfolio in action:  
 👉 **[https://portfolio-17i2.onrender.com](https://portfolio-17i2.onrender.com)**
