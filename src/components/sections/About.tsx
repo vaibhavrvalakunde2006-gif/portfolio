@@ -71,6 +71,17 @@ export function About() {
             ))}
           </div>
 
+          {/* Expanded Bio paragraph */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-lg sm:text-xl text-white/40 font-light leading-relaxed max-w-3xl"
+          >
+            I am driven by a deep fascination with how <span className="text-white/80">data and artificial intelligence</span> can solve real-world problems. Whether I'm building voice-waveform architectures, extracting insights through data analytics, or engineering full-stack applications, my approach is always the same: <span className="text-cyan-400">Build. Break. Fix. Repeat.</span> I thrive in the intersection of creative design and robust backend architecture, pushing the limits of what the web can do.
+          </motion.div>
+
           {/* Philosophy strip */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}

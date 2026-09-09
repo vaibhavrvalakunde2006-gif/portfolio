@@ -21,26 +21,10 @@ A premium, interactive 3D portfolio showcasing engineering, data analytics, and 
 | **Animations** | Framer Motion, Lenis (Smooth Scroll) |
 | **3D & WebGL** | React Three Fiber, Three.js, Drei |
 
-## 💻 Running Locally
+## 💻 Live Demo
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/vaibhavrvalakunde2006-gif/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **View the site:**
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+Click here to watch my portfolio in action:  
+👉 **[https://portfolio-17i2.onrender.com](https://portfolio-17i2.onrender.com)**
 
 ## 📱 Projects Featured
 
