@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useMemo } from "react";
+import React, { useRef, useMemo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float } from "@react-three/drei";
 import * as THREE from "three";
@@ -163,7 +163,7 @@ function RakshakScene() {
 }
 
 /* ─── Exported wrapper ─── */
-const scenes: Record<string, () => JSX.Element> = {
+const scenes: Record<string, React.ComponentType> = {
   "01": AuraScene,
   "02": SaregamaScene,
   "03": RakshakScene,
